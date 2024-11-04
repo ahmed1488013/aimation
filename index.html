@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Animated Page</title>
+    <!-- GSAP CDN for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading screen -->
+    <div id="loader">
+        <div class="loader-circle"></div>
+        <p class="loading-text">Loading, please wait...</p>
+    </div>
+
+    <!-- Main content -->
+    <div id="content" class="hidden">
+        <header class="animate">
+            <h1>Welcome to Our Awesome Page!</h1>
+            <p>Experience the smooth animations as you explore our content.</p>
+        </header>
+
+        <section class="animate hh">
+            <div class="box"></div>
+            <div class="circle"></div>
+        </section>
+
+        <section class="animate">
+            <button>Click Me!</button>
+            <p>This button has a cool pulsing effect.</p>
+        </section>
+
+        <footer class="animate">
+            <p>Thank you for visiting. Enjoy the animations!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
